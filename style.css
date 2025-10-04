@@ -1,0 +1,88 @@
+/* Background gradients for main page and sidebar */
+body, .stApp {
+    background: linear-gradient(120deg, #e7f0fd 60%, #fceabb 100%) !important;
+}
+
+/* Sidebar background */
+[data-testid="stSidebar"] {
+    background: linear-gradient(120deg, #d5e6fa 60%, #ffe5e0 100%) !important;
+    border-right: 1px solid #b2c8e6;
+    padding: 20px 15px;
+}
+
+/* General body text and font */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2c3e50;
+}
+
+/* Sidebar headings */
+[data-testid="stSidebar"] h2,
+[data-testid="stSidebar"] h3 {
+    color: #34495e;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+/* Sidebar multiselect input styling */
+.css-1v0mbdj.edgvbvh3 {
+    background-color: #f0f4f8 !important;
+    border-radius: 6px !important;
+    padding: 8px !important;
+}
+
+/* Main page title */
+.css-1v0mbdj h1 {
+    font-size: 2.8rem;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+/* Subtitles in main page */
+h2 {
+    color: #34495e;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 4px;
+    margin-top: 25px;
+}
+
+/* Tables styling */
+[data-testid="stDataFrame"] {
+    background-color: #fff !important;
+    border-radius: 10px !important;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+}
+
+/* Metrics styling */
+.stMetric {
+    color: #2c3e50 !important;
+    font-weight: 600 !important;
+}
+
+/* Plotly chart container shadow and rounding */
+.js-plotly-plot .plot {
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(52, 152, 219, 0.1);
+}
+
+/* Buttons styling */
+.stButton > button {
+    background-color: #3498db;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 18px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.stButton > button:hover {
+    background-color: #2573b0;
+}
+
+/* Spacing between main sections */
+section[data-testid="stBlock"] {
+    margin-bottom: 30px !important;
+}
